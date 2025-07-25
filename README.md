@@ -53,19 +53,19 @@ pip install torch --index-url https://download.pytorch.org/whl/cu118
 ### Basic Comparison
 
 ```bash
-python enhanced_summary_comparison.py document.md "First summary text" "Second summary text"
+python summary_comparison.py document.md "First summary text" "Second summary text"
 ```
 
 ### With GPU Acceleration
 
 ```bash
-python enhanced_summary_comparison.py document.md "First summary" "Second summary" --device cuda
+python summary_comparison.py document.md "First summary" "Second summary" --device cuda
 ```
 
 ### Detailed Analysis
 
 ```bash
-python enhanced_summary_comparison.py document.md "First summary" "Second summary" --detailed
+python summary_comparison.py document.md "First summary" "Second summary" --detailed
 ```
 
 ## Example Output
