@@ -21,7 +21,7 @@ A comprehensive evaluation tool for comparing the quality of two summaries again
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/summary-comparison-tool.git
+git clone https://github.com/aborroy/summary-comparison-tool.git
 cd summary-comparison-tool
 ```
 
