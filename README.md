@@ -75,11 +75,11 @@ python summary_comparison.py document.md "First summary" "Second summary" --deta
 ============================================================
 SUMMARY EVALUATION RESULTS
 ============================================================
-Summary 1 Overall Score: 0.742
-Summary 2 Overall Score: 0.681
+Summary 1 Overall Score: -0.167
+Summary 2 Overall Score: -0.389
 
-→ Better Summary: Summary 1
-  Margin: +0.061
+* Better Summary: Summary 1
+  Margin: +0.222
 ```
 
 ### Detailed Output (with `--detailed` flag)
@@ -89,23 +89,23 @@ SUMMARY EVALUATION RESULTS
 ============================================================
 
 SUMMARY 1 BREAKDOWN:
-  BARTScore:           0.785
-  Semantic Similarity: 0.823
-  Coverage:            0.712
-  Conciseness:         0.890
-  Factual Consistency: 0.954
-  → Overall Score:     0.742
+  BARTScore:           -1.727
+  Semantic Similarity: 0.527
+  Coverage:            0.187
+  Conciseness:         0.800
+  Factual Consistency: 0.923
+  * Overall Score:     -0.167
 
 SUMMARY 2 BREAKDOWN:
-  BARTScore:           0.723
-  Semantic Similarity: 0.798
-  Coverage:            0.634
-  Conciseness:         0.745
-  Factual Consistency: 0.891
-  → Overall Score:     0.681
+  BARTScore:           -2.447
+  Semantic Similarity: 0.476
+  Coverage:            0.160
+  Conciseness:         1.000
+  Factual Consistency: 0.857
+  * Overall Score:     -0.389
 
-→ Better Summary: Summary 1
-  Margin: +0.061
+* Better Summary: Summary 1
+  Margin: +0.222
 ```
 
 ## Evaluation Metrics
