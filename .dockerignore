@@ -1,0 +1,29 @@
+# Git & VCS
+.git
+.gitignore
+
+# Python cruft
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+venv/
+.env
+
+# IDEs / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Caches
+.hf_cache/
+.huggingface/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Misc
+*.log
+
